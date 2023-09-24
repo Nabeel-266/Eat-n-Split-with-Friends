@@ -1,0 +1,52 @@
+.MainArea {
+  width: 100%;
+  height: 86%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: darkcyan; */
+}
+
+.leftArea {
+  width: 45%;
+  height: 100%;
+  /* background-color: darkolivegreen; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+
+.leftArea .toggleButton {
+  width: 100%;
+  height: 8%;
+  /* background-color: dimgray; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.toggleButton .toggleBtn {
+  all: unset;
+  background-color: #e28b18;
+  color: #222;
+  border-radius: 4px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 6px 10px;
+  transition: 0.1s linear;
+}
+
+.toggleBtn:active {
+  transform: scale(0.95);
+}
+
+.rightArea {
+  width: 53%;
+  height: 100%;
+  /* background-color: darkslategray; */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
